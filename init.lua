@@ -1,2 +1,1 @@
 require("serotonin")
-print("hello")
