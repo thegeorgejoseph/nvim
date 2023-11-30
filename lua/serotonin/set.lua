@@ -7,6 +7,8 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
+vim.opt.list = true
+vim.opt.listchars = { tab = '->', space = '.' }
 
 vim.opt.wrap = false
 
