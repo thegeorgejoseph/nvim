@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('fatih/vim-go', {run = ':GoUpdateBinaries'})
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('MunifTanjim/prettier.nvim')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
